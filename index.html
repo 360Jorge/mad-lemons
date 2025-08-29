@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mad Lemons ATL LLP</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brandpink: '#EC008C',
-            brandyellow: '#FFD400',
-            branddark: '#111111'
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Mad Lemons ATL LLP</title>
+      
+        <!-- Tailwind -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+          tailwind.config = {
+            theme: {
+              extend: {
+                colors: {
+                  brandpink: '#EC008C',
+                  brandyellow: '#FFD400',
+                  branddark: '#111111'
+                }
+              }
+            }
           }
-        }
-      }
-    }
-  </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Headline = heavier, Body = clean -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --brandpink:#EC008C; --brandyellow:#FFD400; --branddark:#111111;
-    }
-    .headline{ font-family: "Montserrat", system-ui, -apple-system, sans-serif; }
-    .body{ font-family: "Inter", system-ui, -apple-system, sans-serif; }
-  </style>
-</head>
+        </script>
+      
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+      
+        <style>
+          :root {
+            --brandpink:#EC008C;
+            --brandyellow:#FFD400;
+            --branddark:#111111;
+          }
+          .headline { font-family: "Montserrat", system-ui, sans-serif; }
+          .body { font-family: "Inter", system-ui, sans-serif; }
+        </style>
+      
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="manifest" href="/site.webmanifest">
+        <meta name="theme-color" content="#EC008C">
+      </head>
+      
 <body class="body bg-[#fff7fb] text-branddark">
 
   <!-- HERO -->
